@@ -1,0 +1,67 @@
+
+
+/*........................
+
+Copyright (c) 2022, FlamencoTech India Pvt. Ltd.
+All rights reserved.
+
+file:  networkConstants.jsx
+
+Brief:  It contains Constants related to network page. 
+
+Project: Pixel Sensor
+
+Release version: version 1.0.0
+
+Release Date: Dec 14, 2022
+
+Auther: Mohak Tripathi
+
+Whats New: Everything.
+ ..........................*/
+
+
+
+export const GET_NTP_REQUEST = "GET_NTP_REQUEST"
+export const GET_NTP_SUCCESS = "GET_NTP_SUCCESS"
+export const GET_NTP_FAIL = "GET_NTP_FAIL"
+
+export const NTP_NETWORK_REQUEST = "NTP_NETWORK_REQUEST"
+export const NTP_NETWORK_SUCCESS = "NTP_NETWORK_SUCCESS"
+export const NTP_NETWORK_FAIL = "NTP_NETWORK_FAIL"
+
+export const CLEAR_ERRORS_NTP = "CLEAR_ERRORS_NTP"
+export const CLEAR_SUCCESS_NTP = 'CLEAR_SUCCESS_NTP'
+
+
+export const ETHERNET_NETWORK_REQUEST = "ETHERNET_NETWORK_REQUEST"
+export const ETHERNET_NETWORK_SUCCESS = "ETHERNET_NETWORK_SUCCESS"
+export const ETHERNET_NETWORK_FAIL = "ETHERNET_NETWORK_FAIL"
+
+export const CLEAR_ERRORS_ETHERNET = "CLEAR_ERRORS_ETHERNET"
+export const CLEAR_SUCCESS_ETHERNET = 'CLEAR_SUCCESS_ETHERNET'
+
+export const WIFI_NETWORK_REQUEST = "WIFI_NETWORK_REQUEST"
+export const WIFI_NETWORK_SUCCESS = "WIFI_NETWORK_SUCCESS"
+export const WIFI_NETWORK_FAIL = "WIFI_NETWORK_FAIL"
+
+export const CLEAR_ERRORS_CRED_WIFI_NET = "CLEAR_ERRORS_CRED_WIFI_NET"
+export const CLEAR_SUCCESS_CRED_WIFI_NET = 'CLEAR_SUCCESS_CRED_WIFI_NET'
+
+
+export const WIFICRED_NETWORK_REQUEST = "WIFICRED_NETWORK_REQUEST"
+export const WIFICRED_NETWORK_SUCCESS = "WIFICRED_NETWORK_SUCCESS"
+export const WIFICRED_NETWORK_FAIL = "WIFICRED_NETWORK_FAIL"
+
+export const CLEAR_ERRORS_CRED = "CLEAR_ERRORS_CRED"
+export const CLEAR_SUCCESS_CRED = 'CLEAR_SUCCESS_CRED'
+
+
+
+export const GET_NETWORK_INFO_REQUEST = "GET_NETWORK_INFO_REQUEST"
+export const GET_NETWORK_INFO_SUCCESS = "GET_NETWORK_INFO_SUCCESS"
+export const GET_NETWORK_INFO_FAIL = "GET_NETWORK_INFO_FAIL"
+
+
+
+

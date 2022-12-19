@@ -1,0 +1,155 @@
+/* body{
+  font-family: ui-sans-serif  
+} */
+
+
+.imageContainer{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 25%;
+}
+
+.dashContainer{
+  display: block;
+  margin-bottom: 40px;
+  margin-top: 75px;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 1px;
+  /* width: 25%; */
+}
+
+.dashContainer1{
+  display: block;
+  margin-bottom: 40px;
+  margin-top: 45px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  /* width: 25%; */
+  /* border:1px solid black; */
+}
+
+
+
+
+.dashBoardContainer{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 92%;
+}
+
+
+
+
+.navHeading{
+text-decoration: none;
+color: white;
+}
+
+.sectionHeading{
+  /* text-decoration: underline; */
+  font-family: ui-sans-serif !important;
+  font-style: italic;
+  font-size: 5px;
+  padding: 7.5px;
+  /* border-bottom: 1.5px solid black; */
+  text-align: center;
+}
+
+.footerSet{
+  text-align: center;
+  margin: 25px ;
+}
+
+
+
+.avatarStyle{
+  background-color: grey;
+  height: 55px;
+  width: 55px;
+  margin-bottom: 10px
+}
+
+.avatarStyle1{
+  /* background-color: red; */
+  height: 55px;
+  width: 55px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+
+.paperStyle {
+  padding: 20px;
+  height: 65vh;
+  width: 280px;
+  margin: 25px auto;
+}
+
+.paperStyle1 {
+  padding: 20px;
+  height: 25vh;
+  width: 220px;
+  margin: 25px auto;
+}
+
+
+
+
+
+
+.redColor{
+    background-color: darkred;
+  }
+
+.greenColor{
+    background-color: green;
+  }
+
+
+  .flexContainer{
+    display: flex;
+    justify-content: center;
+  }
+
+  /* .desOccupancyCont{
+ 
+    border: 1px solid black
+  } */
+
+
+
+  /* Loader */
+.loader {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20%;
+  width: 80px;
+  height: 80px;
+  padding-left: 0;
+}
+.loader:after {
+  content: ' ';
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid purple;
+  border-color: purple transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
